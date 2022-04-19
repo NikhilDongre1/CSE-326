@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="paintball.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="http://fonts.cdnfonts.com/css/times-new-roman" rel="styleshee
+<link rel="java" href="paintball.js">
+    <title>Paintball</title>
+</head>
+<body>
+    <header>
+        <div class="topnav" id="navbar" >
+            <a href="#home" id="mynavbar">Home</a>
+            <a href="#info">Info</a>
+            <a href="#videos">Videos</a>
+            <a href="#about">About</a>
+            <button class="signupbutton" onclick="openForm()">Sign Up</button>
+        </div>
+        <div class="loginPopup">
+            <div class="formPopup" id="popupForm">
+              <form action="" name="myForm" class="login-form" onsubmit="validateForm()" >
+                <!-- <input type="text" placeholder="username" name="fname" id="">
+                <input type="password" placeholder="password" name="password" id="">
+                <button type="submit" class="btn">Login</button> -->
+                <input type="text" placeholder="username" name="fname" minlength="4" id="" required>
+                <input type="password" placeholder="password" minlength="6" name="password" id="" required>
+                <input type="email" placeholder="Email Id" name="" id="" required>
+                <button type="submit" class="btn">Create</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                
+              </form>
+            </div>
+          </div>
+    </header>
+    <main>
+        <section class="presentation">
+            <div class="introduction">
+                <div class="intro-text">
+                    <h1 id="home">Popular Paintball Games at a Glance</h1>
+                    <p>--------------In Detail-------------</p>
+                </div>
+            </div>
+        </section>
+        <div class="Modes">
+            <div><h3 class="Modes-heading">Human vs Zombies</h3>
+              <p>A horde of zombies after a team of elite paintball commandos. How long can they survive before total annihilation?</p></div>
+              <div><h3 class="Modes-heading">Capture the Flag</h3>
+                <p>Two or more teams try and capture an item and bring it back to their base before getting hit.</p></div>
+                <div><h3 class="Modes-heading">Basic Rules</h3>
+                  <p>Play solo or with teams, the last one standing brings home the gold and wins bragging rights.</p></div>
+                </div>
+                
+                <div class="main-content">
+              <img class="cover" src="introduction.jpg" alt="image">
+                <div class="main-intro">
+                    <h1 id="info">Introduction</h1>
+                    <p> <a href="https://en.wikipedia.org/wiki/Paintball">Paintball</a> is a sport in which players try to eliminate opponents by shooting each other with balls of coloured dye. The balls of dye (called "paintballs") are shot through a device called a paintball marker (or paintball gun). When the paintballs hit, they release the dye. When they hit a player, the dye marks that player as eliminated. The game is often played as an organised competitive sport, involving leagues, tournaments, and professional teams. <br> The field is scattered with natural or artificial obstacles and terrain, which players use to hide behind. The objective can vary according to the type of game being played. Players may have to capture a flag held by the opposing team, defend or capture a particular point on the field, or simply eliminate all other players on the field until they are the only player or team remaining.
+
+                    </p>
+                </div>
+                
+                
+            </div>  
+            <div class="main-content">
+                <div class="main-intro">
+                    <h1 id="info">What exactly is paint gun?</h1>
+                    <p>Paintguns, also called "markers," come in a variety of shapes and styles as you see in this special "paintgun roundup" issue [ed. APG 12/96 issue]. They may be powered by carbon dioxide (CO2), nitrogen (N2) or compressed air. Many have power systems that use large refillable cylinders called "tanks" or "bottles" that give hundreds of shots before needing to be refilled. Some use small 12 gram CO2 powerlets as their power source, each powerlet being good for 15 to 30 shots. With pump-action paintguns (pumpguns), each time you want to shoot a paintball you first cock the paintgun or paintball marker by using a pump, then you squeeze the trigger to shoot the paintball; you must recock the paintgun before you can shoot again. Stockguns, using 12-grams, have the most basic pumpgun configuration (though they are becoming ever-more high-tech within the constraints of the configuration) and stock gun play is in a class of its own. <br> <br>
+
+                      With semi-automatic paintguns, the first time you want to shoot you must cock the paintgun (usually by pulling back a cocking knob or handle), but after you shoot the first paintball the paintgun's action will recock the paintgun for you; you simply squeeze the trigger each time you want to shoot a paintball. With a full-auto paintgun, when you squeeze the trigger for the first time, the 'gun will begin to shoot paintballs and will keep on shooting paintballs as long as you keep squeezing the trigger; when you release the trigger, the 'gun will stop shooting. <br> <br> 
+                      
+                      Paintguns range from simple to sophisticated, but what they all share in common is a limitation on their power and range. The international safety limit on the speed (measured in feet per second, "FPS") at which a paintgun shoots a paintball is 300 fps. A chronograph is used to test for speed limits, and all paintguns can be adjusted to shoot under the speed limit. A paintgun's range is limited, too; even shooting 300 fps, at maximum elevation with barrel pointed up into the air, a paintgun can lob a paintball only about 50 yards.</p>
+                </div>
+                
+                    <img class="cover" src="gun.jpg" alt="image">
+                
+            </div>  
+
+            
+                
+              
+            <div class="main-content">
+                
+                    <img class="cover" src="player_where.jpg" alt="image">
+                
+                <div class="main-intro">
+                    <h1>Where to Play Paintball?</h1>
+                    <p>As we mentioned before, you can play paintball indoor or outdoor. But mostly it is an outdoor sport. So the game types are also about the playground. The general game types are;<br>
+<ul><li>Speedball (or paintball),</li>
+<li>Woodsball (or bushball),</li>
+<li>Scenario (or big games),</li>
+<li>MilSim (referring Military Simulation),</li>
+<li>MFOG (Mag-Fed Only Game, that forbids bulk loading),</li>
+<li>Time Trials</li></ul>
+<br>
+                        
+                        
+                       
+                        
+                       
+                        Zombie Hunt (in which some stuff acts and dress like a zombie, and you hunt them).
+                        But the general difference is about the playground. As this game is an organization, generally special companies prepare the field and manage the place as a trading field. People pay money to companies to rent the field and equipment. And the companies run the game. So, to make the game more fun and interesting, companies try to build more exciting playgrounds.</p>
+                </div>
+            </div>  
+            
+
+                        
+ 
+ 
+ <div class="sub-info">
+   <div class="sub-column">
+     <img class="img" src="paintballs.jpg" alt="image">
+ <h3>Paintballs</h3>
+ <p>A paintball is a round, thin-skinned gelatin capsule with colored liquid inside it. Paintballs are similar to large round vitamin capsules or bath oil beads. The fill inside paintballs is non-toxic, non-caustic, water-soluable and biodegradable. It rinses out of clothing and off skin with mild soap and water. Paintballs come in a rainbow of bright colors: blue, pink, white, orange, yellow and more. When a paintball tags a player, the thin gelatin skin splits open, and the liquid inside leaves a bright "paint" mark. A player who is marked is eliminated from the game.</p>
+ 
+ </div>
+ 
+ <div class="sub-column">
+  <img class="img" src="safety.jpg" alt="image">
+ <h3>Safety</h3>
+ <p>For safety, paintball players always must wear goggles specifically designed for paintball to protect their eyes. Goggles must be worn during a game and at all times when a person is in an area where shooting is permitted, such as the target range or chronograph area. A protective facemask is mandatory nearly everywhere, and should be worn regardless. Paintball is a very safe sport as long as safety rules are followed. Insurance statistics have shown that paintball is safer than golf, jogging, tennis, swimming and many other sports. Referees on the field enforce safety and game rules. No physical contact is permitted in the game, and players are ejected from games or the playsite for breaking safety or playing rules. Fields have boundaries, and a player who steps outside a field's boundary is eliminated from that game.</p>
+</div>
+ <div class="sub-column">
+  <img class="img" src="the_game.jpg" alt="image">
+
+ <h3>The Game</h3>
+ <p>Paintball is a sport played by people from all professions and lifestyles. It is a sport where women and men compete equally, and where age is not dominated by youth. Like a game of chess, being able to think quickly and decisively is what makes you a star in paintball. Intelligence and determination, not merely strength, speed or agility, are key to success in the sport. Paintball is a character-building sport. Players learn about teamwork, gain self-confidence and develop leadership abilities while having fun and getting welcome stress-relief. Increasingly, corporations are finding the benefits of having their staff and management participate in paintball games.</p>
+</div>
+
+</div>
+
+<div class="gopro-heading"><h1 id="videos">GoPro Shots</h1></div>
+<div class ="video_series">
+    <div><iframe class="videos" src="https://www.youtube.com/embed/2IEF-mZpzQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe></div>
+    <div><iframe class="videos" src="https://www.youtube.com/embed/DUbFfiFE2o0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <div><iframe class="videos" src="https://www.youtube.com/embed/UztM605OpZ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</div>
+
+    </main>
+    
+    <footer class="footer">
+        <h3 class = "foot_heading">Desclaimer:</h3>
+        <p>Before playing any paintball games, please consult local rules, regulations and laws in private or public locations. Always wear eye protection. Never aim blasters at eyes or face. Modding blasters should only be completed by an adult or with adult supervision. paintball War Battle is not responsible for injury or damage caused by misuse or accidental usage.</p>
+        <div><div><p id="about">Get me on:</p></div>
+    <div>
+        <ul>
+            <li><a class="get-me" href="https://www.instagram.com/_nikhil_dongre/" target="_blank">Instagram</a></li>
+            <li><a class="get-me" href="https://in.linkedin.com/in/nikhil-dongre-0a3872222?trk=people-guest_people_search-card" target="_blank">Linkedin</a></li>
+            <li><a class="get-me"  href="https://github.com/NikhilDongre1" target="_blank">Github</a></li>
+
+        </ul></div></div>
+        <p style="text-align: center;">Developed by Nikhil</p>
+    </footer>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+
+        
+      function openForm() {
+        document.getElementById("popupForm").style.display = "block";
+      }
+      function closeForm() {
+        document.getElementById("popupForm").style.display = "none";
+      }
+      function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+function validateForm() {
+  let x = document.forms["password"]["fname"].value;
+  if (x == "") {
+    alert("Password must be filled out");
+    return false;
+  }
+}
+      
+
+
+let modalBtns = [...document.querySelectorAll(".button")];
+      modalBtns.forEach(function (btn) {
+        btn.onclick = function () {
+          let modal = btn.getAttribute("data-modal");
+          document.getElementById(modal).style.display = "block";
+        };
+      });
+      let closeBtns = [...document.querySelectorAll(".close")];
+      closeBtns.forEach(function (btn) {
+        btn.onclick = function () {
+          let modal = btn.closest(".modal");
+          modal.style.display = "none";
+        };
+      });
+      window.onclick = function (event) {
+        if (event.target.className === "modal") {
+          event.target.style.display = "none";
+        }
+      };
+        </script>
+        
+</body>
+</html>

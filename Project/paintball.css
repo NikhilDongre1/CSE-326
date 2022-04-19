@@ -1,0 +1,350 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:  'Times New Roman', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
+    background-color: #ffffff;
+
+}
+
+#navbar a.active {
+    
+    color: white;
+  }
+  
+#navbar {
+    margin: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgba(51, 51, 51, 0.897);
+    background-blend-mode:multiply;
+    
+  }
+  .signupbutton:hover{
+    border-color: #00ADB5;
+    box-shadow: 0em 0.5em 0.5em -0.4em #00ADB5;
+    color: white;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+.signupbutton{
+    background-color: #333;
+    color:#f2f2f2 ;
+    border: 2px solid;
+    padding: 0.5em 1em 0.5em;
+    margin-top: 0.3em;
+    margin-right: 0.8em;
+    font-size: 1em;
+    border-radius: 10px; 
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+    float: right;
+    
+} 
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    align-content: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  #navbar a:hover {
+      transition: 0.4s;
+    background-color: #ddd;
+    color: black;
+  }
+  
+  #navbar a.active {
+    /* background-color: #04AA6D; */
+    color: white;
+  }
+
+  #mynavbar{
+      background-color: #00ADB5;
+  }
+  /* .topnav a:hover{
+      transition: 0.3s ease-out;
+      background-color:#f2f2f2 ;
+      color:#333;
+  } */
+  .intro-text h1{
+     
+    flex: auto;
+    padding: 60px 0px 0px 0px;
+    color: #333;
+    text-align: center;
+    font-size: 60px;
+    padding: 60px 0px 40px;
+  }
+  .intro-text  p{
+      font-size:medium;
+      text-align: center;
+      color: rgb(130, 130, 130);
+    }
+    .main-intro h1{
+        font-size: 40px;  
+    }
+
+  .Modes div{
+    border: solid black;
+    background-color: #e0e0e0;
+    height: 240px;
+    width: 240px;
+    border-radius: 10px;
+    margin: 20px;
+    animation:drop 1.5s ease;
+}
+
+.Modes-heading{
+    text-align: center;
+    padding: 25px;
+    border-bottom: 2px solid #a8a8a8;
+}
+.Modes{
+      padding: 60px 60px;
+      justify-content:center;
+      flex: auto;
+      display: flex;
+      flex-direction: row;
+  }
+.Modes p{
+    padding: 25px;
+}
+.video_series{
+    margin:30px 40px 70px 40px;
+      justify-content:center;
+      flex: auto;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      
+}
+.videos{
+    width: 400px;
+    height: 225px;
+    margin: 20px 25px 20px 25px;
+    border-radius: 10px;
+}
+.gopro-heading{
+    flex: auto;
+    padding: 0px 0px 0px 0px;
+    
+    color: #333;
+    text-align: center;
+    font-size: 30px;
+    padding: 00px 0px 10px;
+}
+
+footer{
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 5px;
+    text-align: left;
+    background-color: #222831;
+    color: #d4d4d4;
+}
+footer p{
+
+    font-weight:lighter;
+    color: #9a9a9a;
+}
+.get-me{
+    color:#00ADB5;
+}
+.get-me:hover{
+    color: #a8a8a8;
+    text-decoration: none;
+}
+.main-content{
+    display: flex;
+    align-items:flex-start;
+
+    margin: 20px;
+    min-height: 40vh;
+    padding: 0 5% 7% 5%;
+    /* align-items: center; */
+}
+.main-intro{
+    width:95%;
+    min-width: 60vh;
+    padding-left: 15px;
+   
+}
+.main-intro h1{
+    padding: 0px 0px 13px 0px;
+}
+/* .covered{
+    margin: 0;
+    padding: 0;
+    
+} */
+.cover{
+    border-radius: 10px;
+    max-height: 60vh;
+    margin-bottom: 20px;
+    margin-right: 10px;
+ width: 40%;
+  height: auto;
+  /* position: relative;
+  left: 240px; */
+
+    /* filter: drop-shadow(0px 5px 5px black); */
+}
+/* .loginPopup{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+} */
+.formPopup{
+    border-radius: 10px;
+    position:relative;
+    z-index: 1;
+    background-color:#ffffff;
+    border: solid 2px #9a9a9a ;
+    max-width: 360px;
+    margin:  0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+.formPopup input{
+    outline: 1;
+    background:#f2f2f2;
+    width: 100%;
+    height: 45px;
+    
+    border: 0;
+    margin: 0 0 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.btn{
+    border-radius: 10px;
+
+    outline: 0;
+    text-transform: uppercase;
+    background:#4CAF50 ;
+    width: 100%;
+    border: 0;
+    margin: 0 0 5px;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn:hover , .btn:active{
+
+    background:#43AB47 ;
+}
+.message{
+    
+    color: #333;
+    padding: 5px 0 10px;
+}
+.message a{
+    color: #4CAF50;
+}
+.formPopup{
+    display: none;
+}
+.register-form{
+    display: none;
+}
+.sub-info{
+    /* justify-content:space-between;
+      flex: auto;
+      display: flex;
+      flex-direction: row;
+      padding: 0 5% 7% 5%; */
+      justify-content:center;
+      flex: auto;
+      display: flex;
+      flex-direction: row;
+}
+
+
+.sub-column {
+    justify-content:center;
+      flex: auto;
+      
+      margin: 20px;
+      float: center;
+  padding: 10px;
+  height: auto; 
+      
+}
+.img{
+    border-radius: 6px;
+    max-height: 60vh;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+ width: 100%;
+  height: auto;
+}
+/* .sub-info:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+
+
+@keyframes drop{
+    0%{
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+      
+}
+@media screen and (max-width: 910px)
+{ 
+    .Modes{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-content{
+        flex-direction: column;
+    align-items: center;
+    }
+    .video_series{
+        flex-direction: column;
+    align-items: center;
+    
+ }
+ .cover{
+     width: 100%;
+ }
+ 
+.sub-info{
+        flex-direction: column;
+        align-items: center;
+      
+    }
+.sub-column{
+        flex-direction: column;
+        align-items: center;
+      
+    }
+   
+ .videos{
+     width: 90%;
+ }
+    
+}
+
+ 
