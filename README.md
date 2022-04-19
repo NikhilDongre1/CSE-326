@@ -1,8 +1,9 @@
 # CSE-326
-<h1 align="center">Hi 👋, I'm Nikhil Dongre</h1>
+<h6 align="center">Hi 👋, I'm Nikhil Dongre</h6>
+<h6 align="center">Registration No. - 12107877</h6>
 <h3 align="center">A student</h3>
 
-<h3 align="left">Connect with me:</h3>
+
 <p align="left">
 </p>
 
