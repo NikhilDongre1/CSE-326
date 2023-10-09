@@ -3,7 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family:  'Times New Roman', sans-serif;
     /* font-family: 'Ubuntu', sans-serif; */
